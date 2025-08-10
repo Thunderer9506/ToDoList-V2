@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require('lodash');
 const app = express();
-require('dotenv').config({path: __dirname + '/.env'})
+require('dotenv').config();
 
 app.set('view engine', 'ejs');
 
